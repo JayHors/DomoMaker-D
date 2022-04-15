@@ -37,7 +37,7 @@ const handleSignup = (e) => {
         return false;
     }
 
-    helper.sendPost(e.target.action, { username, pass, _csrf });
+    helper.sendPost(e.target.action, { username, pass, pass2, _csrf });
 
     return false;
 }
